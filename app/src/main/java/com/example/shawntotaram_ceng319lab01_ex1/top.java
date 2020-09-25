@@ -67,12 +67,7 @@ public class top extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        String[] activity = {"AIActivity", "VRActivity"};
 
-        ListView listView=(ListView)view.findViewById(R.id.lst);
-        ArrayAdapter<String> adapter= new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1,activity);
-
-        listView.setAdapter(adapter);
 
     }
 
